@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>หน้าปุ่มลิงก์</title>
+  <style>
+    /* พื้นหลัง */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #1E1E1E;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* กรอบขาว */
+    .container {
+      width: 320px;
+      min-height: 580px;
+      background-color: #181F29;
+      border-radius: 5px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    /* โลโก้ */
+    .logo {
+      width: 120px; 
+      height: 120px;
+      margin-bottom: 15px;
+    }
+
+    /* หัวข้อใหญ่ */
+    h1 {
+      font-size: 22px;
+      margin: 0;
+      color: #FFFFFF;
+    }
+
+    /* หัวข้อเล็ก */
+    h2 {
+      font-size: 18px;
+      margin-top: 5px;
+      margin-bottom: 2px;
+      color: #FFFFFF;
+      font-weight: lighter;
+    }
+
+    /* เส้นคั่น */
+    .divider {
+      width: 85%;
+      border: none;
+      border-top: 1.5px solid #ddd;
+      margin: 18px 0;
+    }
+
+    /* ปุ่ม */
+    button {
+      width: 90%;
+      padding: 10px;
+      margin: 6px 0;
+      font-size: 14px;
+      background-color: #DFB795; /* สีครีมอมส้มอ่อน */
+      color: #333;
+      border: 2px solid #EE7D30; /* ขอบสีส้มเข้ม */
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(135deg, #FFB84D, #FFA07A);
+      border-color: #FF8C00;
+    }
+
+    
+    /* ข้อความเล็กใต้ไอคอน */
+    .small-text {
+      margin-top: 10px;
+      font-size: 10px;
+      color: #FFFFFF;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- โลโก้ -->
+    <img class="logo" src="IMG_4519.PNG" alt="โลโก้">
+
+    <!-- หัวข้อใหญ่ -->
+    <h1>OPAAS Link</h1>
+
+    <!-- หัวข้อเล็ก -->
+    <h2>เลือกเมนูที่คุณต้องการ</h2>
+
+    <!-- เส้นคั่น -->
+    <hr class="divider">
+
+    <!-- ปุ่มต่างๆ -->
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScC2moKHPl1f108c-nMhDSMkpZgEocz7gW8Qcvv5uOtKTp8kg/viewform?usp=header'">📑 ลงทะเบียน</button>
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSchaT0IAhHSowQoEBNLLtO9HWNk9Ks2ZTQ-n04rK__Ln59gDw/viewform?usp=header'">📞 รายงานปัญหา</button>
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScvHgcT7JDiZUSmMhrCqjEllt0o1jRGsylgqNJq1hU_i6clWw/viewform?usp=header'">📨 เสนอแนะ</button>
+    <button onclick="window.location.href='https://l.instagram.com/?u=https%3A%2F%2Fsites.google.com%2Fview%2Fopaas-official-%2F%25E0%25B8%25AB%25E0%25B8%2599%25E0%25B8%25B2%25E0%25B9%2581%25E0%25B8%25A3%25E0%25B8%2581%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAacO5lWb5cl2Mrv9gnXw8-ChX-QDekfPLP2UjfVWV4HTSVURypeosW_gLUqQlQ_aem_9F-n3O_-WsBYX4G2WU7KJw&e=AT0jU1pSmLMB3IDRcK30EZTSNxc5HS4GV2nexCSPTctAsBudtpRwVtXLytLQfrmHUSKX7Cz9hkQybsqn-MlRjmyiI3P6HadcKNl4RBg'">🔍 รายละเอียด</button>
+
+    <!-- เส้นคั่น -->
+    <hr class="divider">
+
+   
+    <!-- ข้อความเล็กใต้ไอคอน -->
+    <p class="small-text">โครงการพี่ติวน้องสอวน.ฟิสิกส์และดาราศาสตร์            โรงเรียนสาธิตมหาวิทยาลัยสงขลานครินทร์(ฝ่ายมัธยมศึกษา)</p>
+    
+
+  </div>
+</body>
+</html>
